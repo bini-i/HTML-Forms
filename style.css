@@ -152,9 +152,12 @@ input {
 /* Footer */
 footer {
   text-align: center;
-  align-items: center;
-  display: block;
   font-size: 15px;
   height: 50px;
-  padding-bottom: 30px;
+  padding: 20px 0;
+}
+
+footer .normal_link {
+  color: #505050;
+  padding-left: 10px;
 }
