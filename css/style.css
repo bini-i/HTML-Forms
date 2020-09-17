@@ -151,7 +151,7 @@ input {
   height: 34px;
 }
 
-.submit_button a {
+.submit_button {
   font-size: 15.75px;
   margin: 45px 0;
   display: flex;
