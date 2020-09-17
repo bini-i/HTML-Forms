@@ -31,6 +31,7 @@ p {
 body {
   background: #eceef1;
   font-family: 'Roboto', sans-serif;
+  color: #505050;
 }
 
 h1 {
@@ -63,7 +64,6 @@ p {
 
 .large_desc {
   font-size: 14px;
-  color: #505050;
 }
 
 .italic {
@@ -77,6 +77,11 @@ p {
   align-items: center;
 }
 
+/*  margin for icons */
+i {
+  margin-right: 5px;
+}
+
 /* Header */
 header {
   height: 45px;
@@ -86,7 +91,8 @@ header {
   padding: 10px;
 }
 
-.button {
+.button a {
+  font-size: 13.5px;
   color: white;
   background: #0077c5;
   border-radius: 5px;
@@ -94,23 +100,33 @@ header {
   margin-left: 15px;
 }
 
+/* Main content */
 main {
   display: grid;
   place-items: center;
 }
 
+/* Form section */
 form {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   width: 380px;
   padding: 30px;
+  box-sizing: border-box;
   background: white;
+  border: solid 1px #c7c7c7;
+  border-radius: 2px;
+}
+
+form h1 {
+  margin-bottom: 20px;
 }
 
 label {
   padding-bottom: 6px;
   margin-top: 30px;
+  font-size: 14px;
 }
 
 input {
@@ -119,30 +135,21 @@ input {
   height: 34px;
 }
 
-input[type='submit'] {
+.submit_button a {
+  font-size: 15.75px;
   margin: 45px 0;
-  background: #0077c5;
-  color: white;
-  border-radius: 3px;
-  height: 44px;
   display: flex;
   justify-content: center;
+  padding: 10px 20px 10px 20px;
 }
 
-.recaptcha desc p {
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-/* .recaptcha desc.small_desc {
+.recaptcha {
   background: #eceef1;
-  padding: 20px;
-  font-size: 0px;
-  margin: 1px;
-  height: 48px;
-  border: 1px black ;
+  padding: 16px;
+  margin: 40px -30px -30px;
+}
 
-} */
+/* Footer */
 footer {
   text-align: center;
   align-items: center;
@@ -150,8 +157,4 @@ footer {
   font-size: 15px;
   height: 50px;
   padding-bottom: 30px;
-}
-
-.intuit-logo {
-  width: 30px;
 }
