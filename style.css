@@ -161,3 +161,16 @@ footer .normal_link {
   color: #505050;
   padding-left: 10px;
 }
+.intuit-logo{
+  margin: 0 auto;
+}
+.icons,.icon{
+  display: flex;
+  justify-content: center;
+}
+.icon{
+  margin-right: 10px ;
+}
+.icon img{
+  margin-right: 10px ;
+}
