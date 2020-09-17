@@ -106,6 +106,10 @@ main {
   place-items: center;
 }
 
+.intuit_logo {
+  width: 130px;
+}
+
 /* Form section */
 form {
   display: flex;
@@ -132,6 +136,7 @@ form {
 }
 
 .icon img {
+  width: 25px;
   margin-right: 10px;
 }
 
@@ -153,13 +158,16 @@ input {
 
 .submit_button {
   font-size: 15.75px;
+  height: 44px;
   margin: 45px 0;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 10px 20px 10px 20px;
   color: white;
   background: #0077c5;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .recaptcha {
