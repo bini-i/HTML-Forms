@@ -119,6 +119,22 @@ form {
   border-radius: 2px;
 }
 
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.icon img {
+  margin-right: 10px;
+}
+
 form h1 {
   margin-bottom: 20px;
 }
@@ -160,17 +176,4 @@ footer {
 footer .normal_link {
   color: #505050;
   padding-left: 10px;
-}
-.intuit-logo{
-  margin: 0 auto;
-}
-.icons,.icon{
-  display: flex;
-  justify-content: center;
-}
-.icon{
-  margin-right: 10px ;
-}
-.icon img{
-  margin-right: 10px ;
 }
