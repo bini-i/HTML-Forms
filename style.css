@@ -115,3 +115,28 @@ input[type='submit'] {
   display: flex;
   justify-content: center;
 }
+
+.recaptcha desc p{
+  flex-direction: column;
+  justify-content: flex-start; 
+}
+/* .recaptcha desc.small_desc{
+  background: #eceef1;
+  padding: 20px;
+  font-size: 0px;
+  margin: 1px;
+  height: 48px;
+  border: 1px black ;
+
+} */
+footer{
+  text-align: center;
+  align-items: center;
+  display: block;
+  font-size: 15px;
+  height: 50px;
+  padding-bottom: 30px;
+}
+.intuit-logo{
+  width: 30px;
+}
