@@ -12,16 +12,41 @@
     <header>
         <div class="header-section">
             <p>Already have an intuit account?</p>
-            <a href="#">i forgot my user iD or password</a>
+            <a href="#" class="normal_link">i forgot my user iD or password</a>
         </div>
         <button class="button" name="sign in"><i class="fa fa-lock" aria-hidden="true"></i> Sign in</button>
 
     </header>
     <main>
+      <form action="index.html" method="post">
+        <h1>Create an Intuit account</h1>
+        <p>One account for everything Intuit, including Mint.</p>
+        <a href="#" class="normal_link">Learn more</a>
 
+        <label for="email">Email address</label>
+        <input type="text" id="email" name="email" value="">
+
+        <label for="phone">Phone (recommended)</label>
+        <input type="text" id="phone" name="email" value="">
+        <p class="small_desc">Standard call, messaging or data rates may apply.</p>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="email" value="">
+
+        <label for="conf_password">Confirm Password</label>
+        <input type="password" id="conf_password" name="email" value="">
+
+        <input type="submit" name="" value="Create Account">
+
+        <div class="center">
+          <p class="normal_desc italic">By clicking Create account, you agree to our </p>
+          <p class="normal_desc italic"><span class="normal_link">Terms</span> and have read and acknowledge our <span class="small_link">Privacy</span> </p>
+          <p><span class="normal_link italic">Statement.</span></p>
+        </div>
+      </form>
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
