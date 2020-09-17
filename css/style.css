@@ -177,3 +177,16 @@ footer .normal_link {
   color: #505050;
   padding-left: 10px;
 }
+
+/*
+    Layout changes for screen size less than 700px
+*/
+@media only screen and (max-width: 700px) {
+  header {
+    display: none;
+  }
+
+  main {
+    margin-top: 20px;
+  }
+}
